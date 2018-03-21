@@ -1,13 +1,18 @@
 package com.thoughtworks.step;
 
+import sun.plugin.dom.exception.InvalidAccessException;
+
 public class Account {
     private final String name;
     private final String accNumber;
     private float balance;
 
-    public Account(String name, String accNumber, float balance) throws MinimumBalanceException {
+    public Account(String name, String accNumber, float balance) throws MinimumBalanceException, InvalidAccountNumberException {
         if (balance<500){
             throw new MinimumBalanceException("minimum balance to open account is 500");
+        }
+        if (!accNumber.matches("[0-9]{4}(-)[0-9]{4}")){
+            throw new InvalidAccountNumberException();
         }
         this.name = name;
         this.accNumber = accNumber;

@@ -44,4 +44,10 @@ public class AccountTest {
     public void checkDebitAmount() throws InvalidDebitAmount {
         account.debit(1200);
     }
+
+    @Test (expected = InvalidAccountNumberException.class)
+    public void accNumberCheck() throws MinimumBalanceException, InvalidAccountNumberException {
+        account = new Account("dhanu","122",1111);
+
+    }
 }
