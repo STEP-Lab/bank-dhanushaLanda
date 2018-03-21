@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.step.AccountTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-03-21T10:44:24" hostname="in-dlkshmil.local" time="0.002">
+  <properties/>
+  <testcase name="getBalance" classname="com.thoughtworks.step.AccountTest" time="0.002"/>
+  <testcase name="getAccNumber" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

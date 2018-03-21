@@ -1,3 +1,4 @@
 include '../step/library'
 findProject(':../step/library')?.name = 'bank-dhanushaLanda'
+include 'library'
 
