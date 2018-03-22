@@ -46,8 +46,15 @@ public class AccountTest {
     }
 
     @Test (expected = InvalidAccountNumberException.class)
-    public void accNumberCheck() throws MinimumBalanceException, InvalidAccountNumberException {
+    public void check_the_accountNumberForNumberFormat() throws MinimumBalanceException, InvalidAccountNumberException {
         account = new Account("dhanu","122",1111);
 
     }
+
+    @Test (expected = InvalidAccountNumberException.class)
+    public void check_the_accountNumberforAlphaFormat() throws MinimumBalanceException, InvalidAccountNumberException {
+        account = new Account("dhanu","abcs-1234",1111);
+
+    }
+
 }
