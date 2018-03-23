@@ -4,7 +4,8 @@ package com.thoughtworks.step;
 public class Account {
     private final String name;
     private final String accNumber;
-    private float balance;
+    private double balance;
+    private Transactions transactions;
 
     public Account(String name, String accNumber, float balance) throws MinimumBalanceException, InvalidAccountNumberException {
         if (balance<500){
@@ -16,9 +17,10 @@ public class Account {
         this.name = name;
         this.accNumber = accNumber;
         this.balance = balance;
+        this.transactions = new Transactions();
     }
 
-    public float getBalance() {
+    public double getBalance() {
         return  this.balance;
     }
 
@@ -26,19 +28,21 @@ public class Account {
         return this.accNumber;
     }
 
-    public double credit(double amount) throws MinimumBalanceException {
+    public double credit(float amount, String from) throws MinimumBalanceException {
         if(amount<0){
             throw new MinimumBalanceException("amount should be more than 0");
         }
+        this.transactions.credit(amount,from);
         this.balance += amount;
         return this.balance;
     }
 
-    public double debit(double amount) throws InvalidDebitAmount {
-        if (this.balance-amount<500){
+    public double debit(float amount, String to) throws InvalidDebitAmount {
+        double balance = this.balance-amount;
+        if (balance<500 || amount <= 0 ){
             throw new InvalidDebitAmount();
         }
-        this.balance-=amount;
-        return this.balance;
+        this.transactions.debit(amount,to);
+        return this.balance = balance;
     }
 }
