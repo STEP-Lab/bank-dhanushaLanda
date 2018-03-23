@@ -11,4 +11,4 @@ out/
 library/out/
 library/build
 library/build.gradle
-
+*.xml
