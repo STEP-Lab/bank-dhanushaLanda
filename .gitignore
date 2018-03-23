@@ -1,4 +1,5 @@
 .settings/
+.gradle/
 gradle/
 gradlew
 gradlew.bat
@@ -9,6 +10,9 @@ gradlew.bat
 out/
 .DS_Store
 library/out/
-library/build
+library/build/
 library/build.gradle
 *.xml
+.css/
+.img/
+
