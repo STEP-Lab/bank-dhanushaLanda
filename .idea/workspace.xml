@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53c56e85-0d66-46a0-9a05-954d97237c08" name="Default" comment="Added Credit Transaction and Transactions class">
-      <change beforePath="" afterPath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/CreditTransaction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Transactions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/CreditTransactionTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/TransactionsTest.java" />
+    <list default="true" id="53c56e85-0d66-46a0-9a05-954d97237c08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/library/bin/main/com/thougtworks/step/Rectangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/library/bin/main/com/thougtworks/step/Shape.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/library/bin/main/com/thougtworks/step/Square.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/library/build/classes/java/main/com/thoughtworks/step/Account.class" afterPath="$PROJECT_DIR$/library/build/classes/java/main/com/thoughtworks/step/Account.class" />
       <change beforePath="$PROJECT_DIR$/library/build/classes/java/test/com/thoughtworks/step/AccountTest.class" afterPath="$PROJECT_DIR$/library/build/classes/java/test/com/thoughtworks/step/AccountTest.class" />
       <change beforePath="$PROJECT_DIR$/library/build/libs/library.jar" afterPath="$PROJECT_DIR$/library/build/libs/library.jar" />
@@ -18,10 +12,6 @@
       <change beforePath="$PROJECT_DIR$/library/build/reports/tests/test/packages/com.thoughtworks.step.html" afterPath="$PROJECT_DIR$/library/build/reports/tests/test/packages/com.thoughtworks.step.html" />
       <change beforePath="$PROJECT_DIR$/library/build/test-results/test/TEST-com.thoughtworks.step.AccountTest.xml" afterPath="$PROJECT_DIR$/library/build/test-results/test/TEST-com.thoughtworks.step.AccountTest.xml" />
       <change beforePath="$PROJECT_DIR$/library/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/library/build/test-results/test/binary/results.bin" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Account.java" afterPath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Account.java" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/DebitTransaction.java" afterPath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/DebitTransaction.java" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Transaction.java" afterPath="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Transaction.java" />
-      <change beforePath="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/DebitTransactionTest.java" afterPath="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/DebitTransactionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -87,7 +77,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-301">
@@ -204,21 +204,6 @@
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
                 <element signature="e#418#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -754,7 +739,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/library/src/test/java/AccountTest.java" />
         <option value="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/InvalidDebitAmount.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/InvalidAcountNumberException.java" />
@@ -782,6 +766,7 @@
         <option value="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Transaction.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/Transactions.java" />
         <option value="$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/TransactionsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1223,7 +1208,7 @@
       <updated>1521616554272</updated>
       <workItem from="1521616555621" duration="3652000" />
       <workItem from="1521628506419" duration="13109000" />
-      <workItem from="1521788767215" duration="5838000" />
+      <workItem from="1521788767215" duration="5947000" />
     </task>
     <task id="LOCAL-00001" summary="Added transaction class and debit transaction">
       <created>1521719780641</created>
@@ -1232,7 +1217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521719780641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Credit Transaction and Transactions class">
+      <created>1521798000895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521798000895</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1268,7 +1260,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22599000" />
+    <option name="totallyTimeSpent" value="22708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1531,14 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/test/java/com/thoughtworks/step/AccountNumber.java" />
     <entry file="file://$PROJECT_DIR$/library/src/main/java/com/thoughtworks/step/InvalidAccountNumberException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1698,6 +1682,14 @@
             <element signature="e#729#730#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
