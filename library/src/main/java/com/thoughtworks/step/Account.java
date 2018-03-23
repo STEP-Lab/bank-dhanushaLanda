@@ -1,6 +1,5 @@
 package com.thoughtworks.step;
 
-import sun.plugin.dom.exception.InvalidAccessException;
 
 public class Account {
     private final String name;

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.step.AccountTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-03-21T10:44:24" hostname="in-dlkshmil.local" time="0.002">
+<testsuite name="com.thoughtworks.step.AccountTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-03-22T12:59:05" hostname="in-dlkshmil.local" time="0.005">
   <properties/>
-  <testcase name="getBalance" classname="com.thoughtworks.step.AccountTest" time="0.002"/>
+  <testcase name="credit" classname="com.thoughtworks.step.AccountTest" time="0.001"/>
+  <testcase name="debit" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
+  <testcase name="checkDebitAmount" classname="com.thoughtworks.step.AccountTest" time="0.001"/>
+  <testcase name="checkCreditBalance" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
+  <testcase name="getBalance" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
+  <testcase name="check_the_accountNumberforAlphaFormat" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
   <testcase name="getAccNumber" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
+  <testcase name="check_the_accountNumberForNumberFormat" classname="com.thoughtworks.step.AccountTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
