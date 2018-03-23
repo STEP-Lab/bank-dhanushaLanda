@@ -27,22 +27,22 @@ public class AccountTest {
 
     @Test
     public void credit() throws MinimumBalanceException {
-        assertEquals(account.credit(100),1100,0);
+        assertEquals(account.credit(100, "teja"),1100,0);
     }
 
     @Test (expected= MinimumBalanceException.class)
     public void checkCreditBalance() throws MinimumBalanceException {
-        account.credit(-90);
+        account.credit(-90, "teja");
     }
 
     @Test
     public void debit() throws InvalidDebitAmount {
-        assertEquals(account.debit(100),900,0);
+        assertEquals(account.debit(100,"bhanu"),900,0);
     }
 
     @Test (expected = InvalidDebitAmount.class)
     public void checkDebitAmount() throws InvalidDebitAmount {
-        account.debit(1200);
+        account.debit(1200,"bhanu");
     }
 
     @Test (expected = InvalidAccountNumberException.class)
@@ -54,7 +54,6 @@ public class AccountTest {
     @Test (expected = InvalidAccountNumberException.class)
     public void check_the_accountNumberforAlphaFormat() throws MinimumBalanceException, InvalidAccountNumberException {
         account = new Account("dhanu","abcs-1234",1111);
-
     }
 
 }
