@@ -19,9 +19,26 @@ public abstract class  Transaction {
     protected float getAmount() {
         return amount;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Transaction that = (Transaction) o;
+        return Float.compare(that.amount, amount) == 0 &&
+                Objects.equals(date, that.date);
+    }
+
     @Override
     public int hashCode() {
-
         return Objects.hash(date, amount);
+    }
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "date=" + date +
+                ", amount=" + amount +
+                '}';
     }
 }
