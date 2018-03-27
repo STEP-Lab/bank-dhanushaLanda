@@ -5,8 +5,7 @@ import org.junit.Test;
 import java.util.Date;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 public class CreditTransactionTest {
     @Test
@@ -28,4 +27,5 @@ public class CreditTransactionTest {
         assertThat(credit.fromWhom(),is("dhanu"));
 
     }
+
 }

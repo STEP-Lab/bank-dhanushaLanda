@@ -7,7 +7,7 @@ public abstract class  Transaction {
     private final Date date;
     private final float amount;
 
-    public Transaction(Date date, float amount){
+    Transaction(Date date, float amount){
         this.date = date;
         this.amount = amount;
     }
@@ -40,5 +40,10 @@ public abstract class  Transaction {
                 "date=" + date +
                 ", amount=" + amount +
                 '}';
+    }
+
+    public String toCSV() {
+        return date+","+amount;
+
     }
 }
